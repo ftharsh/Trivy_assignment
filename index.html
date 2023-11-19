@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Login Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="login-container">
+  <div class="login-header">
+    <img src="logo.png" alt="Company Logo">
+    <h2>Login</h2>
+  </div>
+
+  <div class="input-group">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+  </div>
+
+  <div class="input-group">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+  </div>
+
+  <button class="login-btn" onclick="submitForm()">Login</button>
+
+  <div class="extra-options">
+    <a href="#">Forgot Password?</a>
+    <span>or</span>
+    <a href="#">Create an Account</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
